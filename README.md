@@ -17,17 +17,4 @@ The following schedulers:
 
 3. Non-preemptive Priority Scheduling (with the solving of starvation problem).
 
-4. AG Scheduling:
-<br>
-4.1. The Round Robin (RR) CPU scheduling algorithm is a fair scheduling
-algorithm that gives equal time quantum to all processes So All processes
-are provided a static time to execute called quantum.
-<br>
-4.2. A new factor with each submitted process in our AG scheduling algorithm. 
-This factor sums the effects of all three basic factors (priority, arrival time and burst time). 
-The equation summarizes this relation is:
-AG-Factor = Priority + Arrival Time + Burst Time
-<br>
-4.3. Once a process is executed for given time period, it’s called
-Non-preemptive AG till the finishing of (ceil (50%)) of its Quantum time,
-after that it’s converted to preemptive AG.
+4. AG Scheduling.
